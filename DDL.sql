@@ -2,7 +2,7 @@ CREATE DATABASE praktisi;
 
 USE praktisi;
 
-#buat tabel mahasiswa
+#Buat Tabel Mahasiswa
 
 CREATE TABLE mahasiswa (
 	id_mahasiswa INT(10) AUTO_INCREMENT PRIMARY KEY,
@@ -11,7 +11,7 @@ CREATE TABLE mahasiswa (
 	major VARCHAR(100) NOT NULL
 );
 
-#buat tabel matkul
+#Buat Tabel Matkul
 
 CREATE TABLE matkul (
 	id_matkul INT(10) AUTO_INCREMENT PRIMARY KEY,
