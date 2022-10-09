@@ -29,7 +29,12 @@ SET address = 'Jl. Parinring I no. 9/17 Perumnas Antang'
 WHERE full_name LIKE 'Edgar%';
 
 #data kahfi
+INSERT INTO mahasiswa 
+VALUE ('', 'Muhammad Kahfi MS', 'Jl. Kerukunan Timur 18 Blok H No.547', 'Sistem Informasi');
 
+UPDATE mahasiswa
+SET address = 'Jl. Kerukunan Timur 18 Blok H No.547'
+WHERE full_name LIKE 'Kahfi%';
 
 #data rafiq
 
