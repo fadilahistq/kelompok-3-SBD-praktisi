@@ -15,6 +15,12 @@ WHERE full_name LIKE 'Aflah%'
 
 
 #data fadilah
+INSERT INTO mahasiswa
+VALUE ('', 'Fadilah Istiqamah', 'Jl. Perintis Kemerdekaan No. 6', 'Sistem Informasi');
+       
+UPDATE mahasiswa
+SET address = 'Jl. Perintis kemerdekaan NO. 6'
+WHERE full_name LIKE 'Fadilah%';
 
 
 #data dewa
